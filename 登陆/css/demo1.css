@@ -1,0 +1,61 @@
+body{
+    padding: 0px;
+    margin: 0;
+    /*background-color: red;*/
+    font-family: 微软雅黑;
+}
+#section{
+    height: 404px;
+    width: 350px;
+    background-color: #fff;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+#section p:first-child{
+    text-align: left;
+    font-size: 16px;
+    padding: 37px 30px 10px;
+    font-weight:600;
+}
+.pic{
+    width: 40px;
+    height: 36px;;
+    position: relative;
+    top:13.5px;
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+#btn{
+    padding: 30px 0 0;
+
+}
+#btn input{
+    width: 250px;
+    height: 40px
+;
+    background-color: rgba(255,0,54,.8);;
+}
+#div-a{
+    padding: 40px 0 0 60px;
+
+}
+div a{
+
+    font-size: 12px;;
+    color: #9c9c9c;
+    text-decoration: none;
+}
+div a:hover{
+    color: #ff0036;
+}
+a img{
+    display: block;
+    width: 60px;
+    height: 60px;
+   position: absolute;
+    top:0;
+    right:0;
+}
