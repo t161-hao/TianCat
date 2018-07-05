@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .zhuce{
+            margin-left: 55px;
+        }
+        .neirong{
+            margin: 60px 0;
+        }
+        .xuanxiang>div{
+            width: 225px;
+            height:60px;
+            margin-left: 35px;
+        }
+        .first,.second,.third,.fourth{
+            position: relative;
+            display: inline-block;
+        }
+        .xuhao{
+            background-color: #ff0036;border-radius: 25px; width: 30px; color: #fff; font-size: 20px ;text-align: center;display: inline-block;float: left;
+        }
+        strong{
+            font-size: 20px;float: left;
+        }
+        .xuhao,strong{
+            position: relative;
+            top:14px;
+        }
+        .phoneNo div,select,input{
+            float: left;
+        }
+        .phoneNo.next>div{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div style="width:1240px; height: 700px;" class="zhuce">
+        <div style="width: 1240px; height: 60px;padding-left: 200px;border-bottom: 2px solid; border-bottom-color:#e6e6e6" class="xuanxiang">
+            <div class="first" style="text-align: center">
+                <div class="xuhao">1</div>
+                <strong>设置用户名</strong>
+            </div>
+            <div class="second">
+                <div class="xuhao">2</div>
+                <strong>填写证号信息</strong>
+            </div>
+            <div class="third">
+                <div class="xuhao">3</div>
+                <strong>设置支付方式</strong>
+            </div>
+            <div class="fourth">
+                <div class="xuhao">4</div>
+                <strong>注册成功</strong>
+            </div>
+        </div>
+        <div style="width: 1240px; height: 370px;position:relative;top: 80px;left: 200px;" class="neirong">
+            <div class="yanzheng" style="margin: 15px 0;height: 200px;">
+                <div style="margin: 15px 0;height: 70px;" class="phoneNo">
+                    <div style="float: left;width: 360px">
+                        <span style="height: 70px;"><b style="float: right;padding-right: 20px; font-size: 26px;height: 70px;line-height: 70px">手机号</b></span>
+                    </div>
+                    <select style="width: 240px;height: 70px;"></select>
+                    <input type="text" style="width: 240px;height: 64px;" placeholder="请输入你的手机号">
+                </div>
+                <div style="margin: 15px 0;height: 70px;">
+                    <div style="float: left;width: 360px">
+                        <span style="height: 70px;"><b style="float: right;padding-right: 20px; font-size: 26px;height: 70px;line-height: 70px">验证</b></span>
+                    </div>
+                    <div style="width: 450px; height: 50px;"></div>
+                </div>
+            </div>
+            <div class="nextstep"></div>
+        </div>
+    </div>
+</body>
+</html>

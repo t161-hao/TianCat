@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            font-size: 12px;
+            position: absolute;
+            left:250px;
+        }
+        .tanchuang{
+            display: block;
+            border-top-color: #ff0036;
+            width:680px;
+            margin:0 auto;
+            padding:20px;
+            color: #3e3e3e;
+            border:2px solid #dedede;
+            border-top:2px solid #ff4a00;
+            background-color: #fff;
+            position: absolute;
+            z-index: 999999;
+        }
+        .closea{
+            display: inline-block;
+            zoom: 1;
+            width:24px;
+            height:24px;
+            font-size:24px;
+            text-align: center;
+            line-height:24px;
+            text-decoration: none;
+            position: absolute;
+            top:20px;
+            right:20px;
+
+        }
+        .btn{
+            background: #ff0036;
+            min-width:180px;
+            display: inline-block;
+            zoom: 1;
+            height: 36px;
+            line-height: 36px;
+            padding:0 20px;
+            color: #fff;
+            font-weight:700;
+            font-size: 16px;
+            text-align: center;
+            background: red;
+            border:0;
+            border-radius: 3px;
+            cursor: pointer;
+
+        }
+        .btn:hover{
+            background-color: #ff3336;
+        }
+        .xieyitype{
+            display:block;
+            color: #ff0036;
+            margin-top:10px;
+            text-decoration: none;
+        }
+        .xieyitype:hover{
+            text-decoration: underline;
+        }
+    </style>
+    <script src="js/jquery-1.12.4.js"></script>
+</head>
+<body>
+    <div class="tanchuang" style="left: 133px; top: 132.5px">
+        <div>
+            <a href="" class="closea" role="button" target="_top" herf="#">
+                <span>×</span>
+            </a>
+            <div><h3>注册协议</h3></div>
+            <div>
+                <p>
+                    <strong>【审慎阅读】</strong>
+                    您在申请注册流程中点击同意前，应当认真阅读以下协议。
+                    <strong style="text-decoration: underline">请您务必审慎阅读、充分理解协议中相关条款内容，其中包括：</strong>
+                </p>
+                <p>
+                    1、
+                    <strong style="text-decoration: underline">与您约定免除或限制责任的条款； </strong>
+                </p>
+                <p>
+                    2、
+                    <strong style="text-decoration: underline">与您约定法律适用和管辖的条款；</strong>
+                </p>
+                <p>
+                    3、
+                    <strong style="text-decoration: underline">其他以粗体下划线标识的重要条款。</strong>
+                </p>
+                <p>
+                    如您对协议有任何疑问，可向平台客服咨询。
+                </p>
+                <p>
+                    <strong>【特别提示】</strong>
+                    当您按照注册页面提示填写信息、阅读并同意协议且完成全部注册程序后，即表示您已充分阅读、
+                    理解并接受协议的全部内容。如您因平台服务与淘宝发生争议的，适用《淘宝平台服务协议》处理。
+                    如您在使用平台服务过程中与其他用户发生争议的，依您与其他用户达成的协议处理。
+                </p>
+                <p>
+                    <strong style="text-decoration: underline">
+                        阅读协议的过程中，如果您不同意相关协议或其中任何条款约定，您应立即停止注册程序。
+                    </strong>
+                </p>
+                <a href="" class="xieyitype">《淘宝平台服务协议》</a>
+                <a href="" target="_blank" class="xieyitype">《法律声明及隐私权政策》</a>
+                <a href="" target="_blank" class="xieyitype">《支付宝服务协议》</a>
+                <p style="text-align: center">
+                    <button class="btn" type="button">
+                        同意协议
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $("button").click(function () {
+                $(".tanchuang").css("display","none");
+            })
+        })
+    </script>
+</body>
+</html>
