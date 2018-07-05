@@ -8,15 +8,16 @@ section{
     background-color: #fff;
 }
 #header{
-    /*width:364px;*/
+    width:364px;
     /*height: 310px;*/
 }
 #header div{
     display: inline-block;
-    width: 173px;
+    width: 170px;
     height: 55px;
     border-bottom: 1px solid #f4f4f4;
     /*float: left;*/
+    box-sizing: border-box;
 }
 #header a{
     display:block;
@@ -72,6 +73,7 @@ section{
     position: absolute;
     top:0;
     right: -25px;;
+
 }
 .mc p span:first-child{
     color: red;
@@ -146,6 +148,10 @@ ul li{
     line-height: 50px;
     font-size: 14px;
 }
+#footer a:hover{
+    text-decoration: underline;
+    color: #b61d1d;
+}
 #footer a:nth-child(1){
     position: absolute;
     left: 30px;
@@ -158,8 +164,116 @@ ul li{
 #footer a:last-child{
     position: absolute;
     right: 30px;
-    color: red;
+    color: #b61d1d;
     font-size: 17px;
+}
+.qc{
+    width: 364px;
+}
+#div_changmian{
+    height:28px;
+    width: 270px;
+    /*background-color: rgb(255,235,235);*/
+
+}
+.div_changmian-style{
+
+    border: 1px solid #faccc6;
+    margin: 10px 0 5px 34px;
+    color:#e4393c;
+    box-sizing: border-box;
+    padding-left: 80px;
+    padding-top: 5px;
+    font-size: 12px;
+    background-image: url("../images/pwd-icons-new.png");
+    background-repeat: no-repeat;
+    background-position: -100px -43px;
+    background-color: rgb(255,235,235);
+}
+.div_changmian span{
+
+}
+#form-div{
+    position: relative;
+}
+#biaodan{
+    /*padding-top: 20px;*/
+}
+/*#biaodan img{*/
+    /*width: 39px;*/
+    /*height: 38px;*/
+/*}*/
+#biaodan div label{
+    border: 1px solid #999;
+    /*margin-top: 20px;*/
+}
+#biaodan div label:first-child{
+    position: absolute;
+    top: 0px;
+    left: 35px;
+    display: inline-block;
+    width: 39px;
+    height: 39px;
+    background:url("../images/pwd-icons-new.png") no-repeat 0 0px;
+    /*background-color: #888;*/
+}
+#biaodan div:nth-of-type(2) label{
+    display: inline-block;
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    top:40px;
+    margin-top: 21px;
+    left: 35px;
+    background-color: #888;
+    background:url("../images/pwd-icons-new.png") no-repeat;
+    background-position: -48px 0;
+}
+/*#biaodan .logic-user{  ?换背景图片*/
+    /*background:url("../images/pwd-icons-new.png") no-repeat;*/
+    /*background-position: 0 -48px;*/
+    /*!*border: 1px solid red;*!*/
+
+/*}*/
+#biaodan input{
+    height: 35px;
+    width: 240px;
+
+    text-indent: 2em;;margin-bottom: 20px;
+}
+/*#biaodan img,input{*/
+    /*vertical-align: middle;*/
+/*}*/
+#biaodan a{
+    font-size: 13px;
+    color: #666;
+}
+#biaodan a:hover{
+    color: #E4393C;
+
+}
+#div_2{
+    width: 310px;
+    padding-top: 10px;
+    text-align: right;
+}
+.div_1{
+    text-align: center;
+    /*padding-top: 20px;*/
+}
+#biaodan [type='submit']{
+    background-color: #e4393c;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    width: 260px;
+    border: 1px solid #e85356;
+    margin: 40px;
+    margin-top:10px;
+    text-align: center;
+    text-indent: 0;
+    cursor: pointer;
+
 }
 
 
