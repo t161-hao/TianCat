@@ -1,0 +1,185 @@
+
+body,p,ul,div{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+/*头部*/
+header{
+    height: 130px;
+    width: auto;
+}
+/*头部标签*/
+#site-nav{
+    width: auto;
+    height: 32px;
+    background-color: #f2f2f2;
+    position: relative;
+}
+/*顶部标签*/
+.sn-container{
+    color: #999;
+    font-size: 12px;
+
+    margin: 0 auto;
+    height: 32px;
+    width: 1300px;
+    position: relative;
+}
+/*顶部标签 p*/
+.sn-container p{
+    display: inline-block;
+    width: 340px;
+    height: 32px;
+    line-height: 32px;
+}
+.sn-container p em,a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: #999;
+}
+.sn-container p a:hover{
+    color: #FF0036;
+}
+/*顶部标签 ul li标签最顶*/
+.sn-container>ul{
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.sn-container>ul>li{
+    list-style-type: none;
+    display: inline-block;
+    /*padding-right: 15px;*/
+    float: left;
+}
+.sn-container>ul>li>a:hover{
+    color: #FF0036;
+}
+.sn-container .nav-one~li:hover{
+    text-decoration: underline;
+
+}
+/*第一个li 下的ul li标签  我的淘宝*/
+.sn-container>ul>li .container-ul1{
+    height: 38px;
+    position: absolute;
+    top:34px;
+    line-height: 32px;
+    list-style-type: none;
+    background-color: #fff;
+}
+.sn-container>ul>li .container-ul1 li{
+    height: 20px;
+}
+.sn-container>ul>li .container-ul1 li a:hover{
+    color: #ff0036;
+    text-decoration: underline;
+}
+/*第一个li 下的ul li标签  收藏夹*/
+.sn-container>ul>li .container-ul2{
+    height: 38px;
+    position: absolute;
+    top:34px;
+    line-height: 32px;
+    list-style-type: none;
+    background-color: #fff;
+}
+.sn-container>ul>li .container-ul2 li{
+    height: 20px;
+}
+.sn-container>ul>li .container-ul2 li a:hover{
+    color: #ff0036;
+    text-decoration: underline;
+}
+
+
+#nav-right{
+    height: 930px;
+    width: 35px;
+    background-color: #000;
+    position: fixed;
+    right: 0px;
+    top:0;
+    color: #fff;
+    font-size: 12px;
+}
+#nav-right .nav-right-div0{
+    display: block;
+    height: 40px;
+    width: 35px;
+    /*border-bottom: 1px solid #666;*/
+    background: url("../images/huiyuanquanyi.png") no-repeat 0 0;
+    position: absolute;
+    top: 240px;
+}
+#nav-right .nav-right-div1{
+    display: block;
+    width: 35px;
+    height: 100px;
+    text-align: center;
+    /*padding: 5px;*/
+    position: absolute;
+    top: 280px;;
+    /*left: 5px;*/
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    /*word-wrap: break-word;*/
+    box-sizing: border-box;
+    padding: 10px 5px;
+}
+#nav-right .nav-right-div1 label:last-child{
+    display: block;
+    width: 12px;
+    height: 50px;
+    margin-top:30px;
+    margin-left: 6px;
+}
+#nav-right .nav-right-div2{
+    width: 35px;
+    height: 35px;;
+    background: url("../images/￥符号.png") no-repeat 0 0;
+    position: absolute;
+    top: 405px;;
+}
+#nav-right .nav-right-div3{
+    width: 35px;
+    height: 35px;;
+    background: url("../images/侧边栏/星星.png") no-repeat 0 0;
+    position: absolute;
+    top: 450px;;
+}
+#nav-right .nav-right-div4{
+    width: 35px;
+    height: 35px;;
+    background: url("../images/侧边栏/时钟.png") no-repeat 0 0;
+    position: absolute;
+    top: 495px;;
+}
+#nav-right .nav-right-div5{
+    width: 35px;
+    height: 35px;;
+    background: url("../images/侧边栏/充值.png") no-repeat 0 0;
+    position: absolute;
+    top: 540px;;
+}
+#nav-right .nav-right-div6{
+    width: 35px;
+    height: 35px;;
+    background: url("../images/侧边栏/xiazai.png") no-repeat 0 0;
+    position: absolute;
+    bottom: 40px;
+}
+#nav-right .nav-right-div7{
+    width: 35px;
+    height: 35px;;
+    background: url("../images/侧边栏/top.png") no-repeat 0 0;
+    position: absolute;
+    bottom:0px;;
+}
+#nav-right div:hover{
+    background-color: red;
+}
+
