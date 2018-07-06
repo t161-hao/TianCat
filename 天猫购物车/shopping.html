@@ -6,39 +6,44 @@
     <link rel="stylesheet" href="css/shopping.css">
     <script src="js/jquery-1.12.4.js"></script>
     <script src="js/shop.js"></script>
+    <link rel="stylesheet" href="字体库/css/font-awesome.min.css">
 </head>
 <body>
 <header class="header">
     <div id="userinfo">
         <ul>
             <li>
-                <a href="#">张世豪</a>
-                <a href="#"><img src="image/user1.png" alt=""></a>
-                <span></span>
+                <div class="info-de">
+                    <a href="#">张世豪15215</a>
+                    <a href="#"></a>
+                    <a href="#"></a>
                     <div class="header-user">
-                        <img src="image/userpri.jpg" alt="">
-                        <p><a href="#">账号管理</a><span>&nbsp;|&nbsp;</span><a href="#">管理</a></p>
+                        <img src="image/userpri.jpg" alt="" style="border-radius: 50%">
+                        <p><a href="#">账号管理</a><span>&nbsp;|&nbsp;</span></p>
+                        <a href="#" style="position: absolute;right: 30px;top: 0px">管理</a>
                         <div class="text">
                             <p>淘气值：300</p>
                             <p>普通会员</p>
                         </div>
                         <a href="#">查看你的专属权益</a>
                     </div>
+                </div>
             </li>
             <li>
                 <div id="info" style="width: 100px">
                     <span></span>
                     <span>消息</span>
-                    <span></span>
+                    <span class="fa fa-envelope-o" style="color: rgb(156,156,156)"></span>
                     <div class="user-info" style="display: none">
                         <h2>未读新消息</h2>
                         <p><img src="image/con2.png" alt="">没有新消息了 <img src="image/con1.png" alt=""></p>
                         <p><img src="image/asdf.png" alt=""></p>
-                        <a href="#">查看之前的消息</a>
+                        <a href="#" class="xinxi">查看之前的消息</a>
+                        <!--<p><hr></p>-->
                         <div class="info-all">
-                            <span></span>
-                            <span></span>
-                            <span>查看全部</span>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#">查看全部</a>
                         </div>
                     </div>
                 </div>
@@ -56,7 +61,7 @@
             <li>
                 <div id="myBao">
                     <a href="#">我的淘宝</a>
-                    <span></span>
+                    <a href="#"></a>
                     <div class="myBao-show" style="display: none">
                         <p><a href="#">已买到的宝贝</a></p>
                         <p><a href="#">我的足迹</a></p>
@@ -65,16 +70,16 @@
             </li>
             <li>
                 <div id="shop">
-                    <span></span>
+                    <a href="#" class="fa fa-cart-plus" style="color: rgb(255,68,0)"></a>
                     <a href="#">购物车</a>
-                    <span></span>
+                    <a href="#"></a>
                 </div>
             </li>
             <li>
                 <div id="shoplove">
-                    <span></span>
+                    <a href="#" class="fa fa-star"></a>
                     <a href="#">收藏夹</a>
-                    <span></span>
+                    <a href="#"></a>
                     <div class="love-show" style="display: none">
                         <p><a href="#">收藏的宝贝</a></p>
                         <p><a href="#">收藏的店铺</a></p>
@@ -89,7 +94,7 @@
             <li>
                 <div id="center">
                     <a href="#">卖家中心</a>
-                    <span></span>
+                    <a href="#"></a>
                     <div class="center-show" style="display: none">
                         <p><a href="#">免费开店</a></p>
                         <p><a href="#">已卖出的宝贝</a></p>
@@ -109,13 +114,142 @@
             </li>
             <li>
                 <div id="web">
-                    <span></span>
+                    <a href="#" class=" fa fa-list" style="color: rgb(255,68,0)"></a>
                     <a href="#">网站导航</a>
-                    <span></span>
+                    <a href="#"></a>
+                    <div class="web-all" style="display: none">
+                        <div class="web-zhuti">
+                            <h4>主题市场</h4>
+                            <ul>
+                                <li><a href="#">女装</a></li>
+                                <li><a href="#">男装</a></li>
+                                <li><a href="#">内衣</a></li>
+                                <li><a href="#">鞋靴</a></li>
+                                <li><a href="#">箱包</a></li>
+                                <li><a href="#">婴童</a></li>
+                                <li><a href="#">家电</a></li>
+                                <li><a href="#">数码</a></li>
+                                <li><a href="#">手机</a></li>
+                                <li><a href="#">美妆</a></li>
+                                <li><a href="#">珠宝</a></li>
+                                <li><a href="#">眼镜</a></li>
+                                <li><a href="#">手表</a></li>
+                                <li><a href="#">运动</a></li>
+                                <li><a href="#">户外</a></li>
+                                <li><a href="#">乐器</a></li>
+                                <li><a href="#">游戏</a></li>
+                                <li><a href="#">动漫</a></li>
+                                <li><a href="#">影视</a></li>
+                                <li><a href="#">美食</a></li>
+                                <li><a href="#">鲜花</a></li>
+                                <li><a href="#">宠物</a></li>
+                                <li><a href="#">农资</a></li>
+                                <li><a href="#">房产</a></li>
+                                <li><a href="#">装修</a></li>
+                                <li><a href="#">建材</a></li>
+                                <li><a href="#">家居</a></li>
+                                <li><a href="#">百货</a></li>
+                                <li><a href="#">汽车</a></li>
+                                <li><a href="#">二手车</a></li>
+                                <li><a href="#">办公</a></li>
+                                <li><a href="#">定制</a></li>
+                                <li><a href="#">教育</a></li>
+                                <li><a href="#">卡券</a></li>
+                                <li><a href="#">本地</a></li>
+                            </ul>
+                        </div>
+                        <!--<div class="web-tese">-->
+                            <!--<h4>特色市场</h4>-->
+                            <!--<ul>-->
+                                <!--<li>iFashion</li>-->
+                                <!--<li>爱逛街</li>-->
+                                <!--<li>美妆秀</li>-->
+                                <!--<li>全球购</li>-->
+                                <!--<li>腔调</li>-->
+                                <!--<li>淘女郎</li>-->
+                                <!--<li>星店</li>-->
+                                <!--<li>极有家</li>-->
+                                <!--<li>特色中国</li>-->
+                                <!--<li>拍卖会</li>-->
+                                <!--<li>淘宝众筹</li>-->
+                                <!--<li>中国质造</li>-->
+                                <!--<li>飞猪</li>-->
+                                <!--<li>亲宝贝</li>-->
+                                <!--<li>闲鱼</li>-->
+                                <!--<li>农资</li>-->
+                                <!--<li>天天特价</li>-->
+                                <!--<li>Outlets</li>-->
+                                <!--<li>俪人购</li>-->
+                                <!--<li>聚名品</li>-->
+                                <!--<li>淘抢购</li>-->
+                                <!--<li>全球精选</li>-->
+                                <!--<li>非常大牌</li>-->
+                            <!--</ul>-->
+                        <!--</div>-->
+                        <!--<div class="web-app">-->
+                            <!--<h4>阿里APP</h4>-->
+                            <!--<ul>-->
+                                <!--<li>淘宝</li>-->
+                                <!--<li>天猫</li>-->
+                                <!--<li>支付宝</li>-->
+                                <!--<li>聚划算</li>-->
+                                <!--<li>飞猪</li>-->
+                                <!--<li>蚂蚁聚宝</li>-->
+                                <!--<li>旺信</li>-->
+                                <!--<li>闲鱼</li>-->
+                                <!--<li>阿里钱盾</li>-->
+                                <!--<li>钉钉</li>-->
+                                <!--<li>高德地图</li>-->
+                                <!--<li>点点虫</li>-->
+                                <!--<li>虾米音乐</li>-->
+                                <!--<li>淘票票</li>-->
+                                <!--<li>菜鸟裹裹</li>-->
+                                <!--<li>爱逛街</li>-->
+                                <!--<li>拍卖会</li>-->
+                                <!--<li>阿里云</li>-->
+                                <!--<li>网商银行</li>-->
+                                <!--<li>阿里邮箱</li>-->
+                                <!--<li>阿里众包</li>-->
+                            <!--</ul>-->
+                        <!--</div>-->
+                        <!--<div class="web-jingcai">-->
+                            <!--<h4>精彩推荐集</h4>-->
+                            <!--<ul>-->
+                                <!--<li>余额宝</li>-->
+                                <!--<li>大牌捡宝</li>-->
+                                <!--<li>淘公仔</li>-->
+                                <!--<li>浏览器</li>-->
+                                <!--<li>淘宝香港</li>-->
+                                <!--<li>淘宝台湾</li>-->
+                                <!--<li>淘宝全球</li>-->
+                                <!--<li>淘宝东南亚</li>-->
+                                <!--<li>闺蜜淘货</li>-->
+                                <!--<li>大众评审</li>-->
+                                <!--<li>淘工作</li>-->
+                            <!--</ul>-->
+                        <!--</div>-->
+                    </div>
                 </div>
             </li>
         </ul>
     </div>
 </header>
+<section id="section">
+    <div class="logo">
+        <a href="#"><img src="image/logo.png" alt=""></a>
+    </div>
+    <div class="input">
+        <input type="text" style="width: 500px;height: 40px;border: 4px solid red;text-indent: 7em">
+        <div class="bao">
+            <ul>
+                <li><a href="#">宝贝</a></li>
+                <li class="bao-cat"><a href="#" style="background-color: white">天猫</a></li>
+                <li class="bao-cat"><a href="#" style="background-color: white">店铺</a></li>
+            </ul>
+        </div>
+        <span></span>
+        <button type="submit" style="font-size: 22px">搜 索</button>
+    </div>
+</section>
 </body>
 </html>

@@ -35,4 +35,16 @@ $(function () {
         $(".center-show").hide();
         $(this).css("background-color","rgb(245,245,245)");
     });
+    // $("#userinfo ul li:nth-child(11)").mouseover(function () {
+    //     $(".web-all").show();
+    //     $(this).css("background-color","white");
+    // }).mouseout(function () {
+    //     $(".web-all").hide();
+    //     $(this).css("background-color","rgb(245,245,245)");
+    // });
+    $(".bao ul li a:first-child").mouseover(function () {
+       $(".bao .bao-cat").show();
+    }).mouseout(function () {
+        $(".bao-cat").hide();
+    });
 });

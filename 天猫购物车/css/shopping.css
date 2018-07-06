@@ -38,11 +38,11 @@
     padding-top: 5px;
     padding-left: 5px;
 }
-.header-user img+p{
+.header-user img>p{
     padding-right: 15px;
     /*float: right;*/
     position: relative;
-    left: 40px;
+    left: 20px;
     top: 10px;
 }
 #userinfo li:nth-child(1){
@@ -50,10 +50,13 @@
     right: 200px;
     height: 36px;
     width: 100px;
+    padding-right: 40px;
 }
 .header-user{
     position: absolute;
     top: 40px;
+    z-index: 10;
+    background-color: white;
 }
 .header-user .text{
     position: relative;
@@ -70,7 +73,7 @@
     position: relative;
     right: 160px;
     /*weight:80px;*/
-    height: 28px;
+    height: 31px;
     /*background-color: white;*/
 }
 #userinfo ul li:nth-child(3){
@@ -85,7 +88,8 @@
     position: relative;
     right: 40px;
     width: 80px;
-    height: 28px;
+    height: 31px;
+    padding-right: 25px;
     /*background-color: white;*/
 }
 #userinfo ul li:last-child{
@@ -96,30 +100,34 @@
     position: relative;
     left: 90px;
     width: 80px;
-    height: 28px;
+    height: 31px;
+    padding-right: 20px;
 }
 #userinfo ul li:nth-child(8){
     position: relative;
     left: 50px;
     width: 80px;
-    height: 28px;
+    height: 31px;
+    /*padding-right: 20px;*/
 }
-#userinfo ul li:nth-child(10){
-    /*position: relative;*/
-    /*left: 30px;*/
-    /*top: 50px;*/
-    /*width: 80px;*/
-    /*height: 28px;*/
+#userinfo ul li:nth-child(11){
+    /*position: absolute;*/
+    /*left: -100px;*/
+    /*top: 0px;*/
+    width: 120px;
+    height: 31px;
 }
 #userinfo ul li:nth-child(6){
     width: 80px;
     height: 28px;
+    /*padding-right: 20px;*/
 }
 #userinfo ul li:nth-child(7){
     position: relative;
     left: 30px;
     width: 80px;
-    height: 28px;
+    height: 31px;
+    padding-right: 20px;
 }
 #info .user-info{
     width: 290px;
@@ -145,9 +153,9 @@
     width: 150px;
     height: 25px;
     line-height: 16px;
-    background-color: rgb(255,240,232);
+    /*background-color: rgb(255,240,232);*/
 }
-.info-all span:last-child{
+.info-all span{
     float: right;
     padding-top: 20px;
     padding-right: 20px;
@@ -178,6 +186,8 @@
     padding-top: 10px;
     line-height: 30px;
     border-top: none;
+    z-index: 1;
+    background-color: white;
 }
 #center .center-show{
     width:100px;
@@ -189,4 +199,208 @@
     padding-top: 10px;
     line-height: 30px;
     border-top: none;
+    z-index: 1;
+    background-color: white;
+}
+.info-de>a:nth-child(2){
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url("../image/icon.png") no-repeat -96px -77px;
+    position: absolute;
+    top: 13px;
+    left: 125px;
+}
+.info-de>a:nth-child(3){
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("../image/user.png") no-repeat 0 0;
+    position: absolute;
+    top: 8px;
+    left: 100px;
+}
+.header-user a:last-child{
+    display: inline-block;
+    width: 230px;
+    height: 22px;
+    padding-top: 3px;
+    text-align: center;
+    position: absolute;
+    top: 95px;
+    left: 30px;
+}
+#info>span:first-child{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url("../image/icon.png") no-repeat -96px -77px;
+    position: absolute;
+    left: 70px;
+    top: 13px;
+}
+#info span:nth-child(3){
+    position: absolute;
+    left: 10px;
+    top: 9px;
+}
+.info-all a:nth-child(1){
+    display: inline-block;
+    width: 12px;
+    height: 10px;
+    background: url("../image/wer.png") no-repeat -1px -125px;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+.info-all a:nth-child(2){
+    display: inline-block;
+    width: 12px;
+    height: 2px;
+    background: url("../image/wer.png") no-repeat 0px -146px;
+    position: absolute;
+    bottom: 15px;
+    left: 50px;
+}
+.info-all a:nth-child(3){
+    position: absolute;
+    bottom: 8px;
+    right: -10px;
+}
+.xinxi{
+    background-color: rgb(255,240,232);
+}
+#myBao>a:nth-child(2){
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url("../image/icon.png") no-repeat -96px -77px;
+    position: absolute;
+    left: 80px;
+    top: 13px;
+}
+#shop a:nth-child(3){
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url("../image/icon.png") no-repeat -96px -77px;
+    position: absolute;
+    top: 15px;
+}
+#shoplove a:nth-child(3){
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url("../image/icon.png") no-repeat -96px -77px;
+    position: absolute;
+    top: 15px;
+    left: 80px;
+}
+#center a:nth-child(2){
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url("../image/icon.png") no-repeat -96px -77px;
+    position: absolute;
+    top: 15px;
+    left: 80px;
+}
+#web a:nth-child(3){
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url("../image/icon.png") no-repeat -96px -77px;
+    position: absolute;
+    top: 15px;
+    left: 105px;
+}
+.web-all{
+    width: 1360px;
+    height: 400px;
+    position: absolute;
+    left: -1240px;
+    /*bottom: 0px;*/
+    top: 35px;
+    border: 1px solid rgb(245,245,245);
+}
+.web-zhuti ul li a{
+    float: left;
+    /*display: inline-block;*/
+    width: 24%;
+    height: 25px;
+    padding-top: 5px;
+}
+.web-zhuti ul{
+    display: block;
+}
+#info .user-info{
+    z-index: 10;
+    background-color: white;
+}
+/*#center .center-show p a{*/
+    /*!*padding-left: 0;*!*/
+    /*display: inline-block;*/
+/*}*/
+/**
+    section部分css代码
+ */
+.logo a img{
+    width: 300px;
+    height: 110px;
+    padding-top: 10px;
+    position: absolute;
+    left: 250px;
+    z-index: -1;
+}
+.input{
+    position: absolute;
+    left: 900px;
+    top: 80px;
+}
+.bao ul li>a:nth-child(1){
+    width: 95px;
+    height: 30px;
+    display: inline-block;
+    background-color: rgb(245,245,245);
+    padding-top: 8px;
+    text-indent: 15px;
+}
+.bao ul{
+    position: relative;
+    right: -5px;
+    top: -43px;
+    /*background-color: white;*/
+    width: 78px;
+    height: 100px;
+    /*border: 1px solid rgb(245,245,245);*/
+}
+.bao ul li{
+    list-style-type: none;
+    width: 95px;
+    height: 38px;
+}
+.bao ul li a{
+    text-decoration: none;
+}
+.bao .bao-cat{
+    display: none;
+    border: 1px solid rgb(245,245,245);
+}
+.bao .bao-cat a{
+    width: 95px;
+    height: 30px;
+    display: inline-block;
+}
+.bao .bao-cat :hover{
+    background-color: rgb(107,107,107);
+}
+.input button{
+    width: 93px;
+    height: 48px;
+    background-color: red;
+    color: white;
+    border: none;
+    position: absolute;
+    right: -90px;
+    top: 0px;
 }
