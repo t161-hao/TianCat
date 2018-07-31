@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .emailregist{
+            margin-left: 55px;
+        }
+        .xuanxiang>div{
+            width: 325px;
+            height:60px;
+            margin-left: 35px;
+        }
+        .first,.second,.third{
+            position: relative;
+            display: inline-block;
+        }
+        .xuhao{
+            background-color: #ff0036;border-radius: 25px; width: 30px; color: #fff; font-size: 20px ;text-align: center;display: inline-block;float: left;
+        }
+        strong{
+            font-size: 20px;float: left;
+        }
+        .xuhao,strong{
+            position: relative;
+            top:14px;
+        }
+        .xuhaostyle{
+            border-bottom: 2px solid;
+            border-bottom-color: red;
+        }
+        #isreceive{
+            text-decoration: none;color: red;
+            position: relative;
+            left:400px;
+            top:70px;
+        }
+        #isreceive:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="emailregist">
+        <div style="width: 1240px; height: 60px;padding-left: 200px;border-bottom: 2px solid; border-bottom-color:#e6e6e6" class="xuanxiang">
+            <div class="first xuhaostyle" style="text-align: center">
+                <div class="xuhao">1</div>
+                <strong>设置用户名</strong>
+            </div>
+            <div class="second">
+                <div class="xuhao">2</div>
+                <strong>填写证号信息</strong>
+            </div>
+
+            <div class="third">
+                <div class="xuhao">3</div>
+                <strong>注册成功</strong>
+            </div>
+        </div>
+        <div style="display: none">
+            <span style="position: absolute;left: 450px;top: 140px;">电子邮箱</span><input type="text" style="height: 35px;position: relative;left: 480px;top: 55px;" placeholder="请输入电子邮箱">
+            <button style="color: white;font-size: 20px;background-color:red;width:200px;height: 40px;position: relative;left: 315px;top: 130px;">下一步</button>
+        </div>
+        <div class="sendemail" style="display: none;">
+            <p style="font-size: 20px;position: relative;left: 390px;top: 30px;">验证邮件已送达 <span style="color: red;">969886245@qq.com</span></p>
+            <p style="position:relative;left: 390px;top: 50px;">请登录邮箱，点击激活链接完成注册，激活链接在24小时内有效。</p>
+            <button style="color: white; font-size:18px;background-color: red;width: 180px;height: 40px;position: relative;left: 390px;top: 70px;">请查收邮件</button><span id="isreceive">没有收到邮件？</span>
+        </div>
+        <div class="userinfo" style="width: 1040px; height: 370px;position:relative;top: 80px;left: 200px;">
+            <p style="font-size: 20px;position: absolute;left: 300px;top: -50px;">登录名 <span style="position: relative;left: 20px;">13261068823 </span></p>
+            <p style="position: relative;top: 20px;left: 220px;">
+                <span style="font-size: 20px;">请设置登录密码 </span>
+                <span style="position:relative;left: 20px;">登录时验证，保护账号信息</span>
+            </p>
+            <p style="position:relative;left: 290px;top: 40px;">登录密码</p>
+            <input type="password" style="position: relative;left: 385px;top: -5px;height: 30px;width: 200px;" placeholder="设置你的登录密码">
+            <p style="position:relative;;left: 290px;top: 40px;">密码确认</p>
+            <input type="password" style="position:relative;left: 385px;top: 0px;height: 30px;width: 200px;" placeholder="请再次输入你的密码">
+            <p style="font-size: 20px;position:relative;top: 40px;left: 260px;">设置会员名</p>
+            <p style="position:relative;left: 310px;top: 80px;">登录名</p>
+            <input type="text" style="position:relative;left: 385px;top: 35px;height: 30px;width: 200px;" placeholder="会员名一旦设置成功，无法修改">
+            <button style="background-color: red;position: relative;left: 220px;top: 130px;height: 35px;width: 100px;color: white;">提交</button>
+        </div>
+    </div>
+</body>
+</html>

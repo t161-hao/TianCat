@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .zhuce{
+            margin-left: 55px;
+        }
+        .neirong{
+            margin: 60px 0;
+        }
+        .xuanxiang>div{
+            width: 225px;
+            height:60px;
+            margin-left: 35px;
+        }
+        .first,.second,.third,.fourth{
+            position: relative;
+            display: inline-block;
+        }
+        .xuhao{
+            background-color: #ff0036;border-radius: 25px; width: 30px; color: #fff; font-size: 20px ;text-align: center;display: inline-block;float: left;
+        }
+        strong{
+            font-size: 20px;float: left;
+        }
+        .xuhao,strong{
+            position: relative;
+            top:14px;
+        }
+        .phoneNo div,select,input{
+            float: left;
+        }
+        .phoneNo.next>div{
+            float: left;
+        }
+        .nextstep>button{
+            height:60px;
+            width: 280px;
+            background-color: #ededed;
+            position: absolute;
+            left:360px;
+            font-size: 25px;color:white;
+            border-radius: 10px;
+        }
+        .xuhaostyle{
+            border-bottom: 2px solid;
+            border-bottom-color: red;
+        }
+        .tanchuang{
+            display: block;
+            border-top-color: #ff0036;
+            width:880px;
+            margin:0 auto;
+            padding:20px;
+            color: #3e3e3e;
+            border:2px solid #dedede;
+            border-top:2px solid #ff4a00;
+            background-color: #fff;
+
+            z-index: 999999;
+        }
+        #emailregist{
+            position: relative;left: 400px;top: 60px;color: red;text-decoration: none
+        }
+        #emailregist:hover{
+            text-decoration: underline;
+        }
+        #xieyi{
+            color: #00a3d2;
+            text-decoration: none;
+        }
+        #xieyi:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div style="width:1240px; height: 700px;" class="zhuce">
+        <div style="width: 1240px; height: 60px;padding-left: 200px;border-bottom: 2px solid; border-bottom-color:#e6e6e6" class="xuanxiang">
+            <div class="first xuhaostyle" style="text-align: center">
+                <div class="xuhao">1</div>
+                <strong>设置用户名</strong>
+            </div>
+            <div class="second">
+                <div class="xuhao">2</div>
+                <strong>填写证号信息</strong>
+            </div>
+            <div class="third">
+                <div class="xuhao">3</div>
+                <strong>设置支付方式</strong>
+            </div>
+            <div class="fourth">
+                <div class="xuhao">4</div>
+                <strong>注册成功</strong>
+            </div>
+        </div>
+        <div style="width: 1240px; height: 370px;position:relative;top: 80px;left: 200px; display: none;" class="neirong">
+            <div class="yanzheng" style="margin: 15px 0;height: 200px;">
+                <div style="margin: 15px 0;height: 70px;" class="phoneNo">
+                    <div style="float: left;width: 360px">
+                        <span style="height: 70px;"><b style="float: right;padding-right: 20px; font-size: 26px;height: 70px;line-height: 70px">手机号</b></span>
+                    </div>
+                    <select style="width: 240px;height: 46px;position: absolute;top:10px"></select>
+                    <input type="text" style="width: 240px;height: 40px;position: absolute;top:10px;right:396px" placeholder="请输入你的手机号">
+                </div>
+                <div style="margin: 15px 0;height: 70px;">
+                    <div style="float: left;width: 360px">
+                        <span style="height: 70px;"><b style="float: right;padding-right: 20px; font-size: 26px;height: 70px;line-height: 70px">验证</b></span>
+                    </div>
+                    <div style="width: 450px; height: 50px;"></div>
+                </div>
+            </div>
+            <div class="nextstep"><button>下一步</button></div>
+        </div>
+        <div class="tanchuang" style="left: 333px;height:320px;position: absolute;top: 150px; display: none;">
+            <p style="font-size: 20px;position: absolute;left: 40px;top: 10px;">验证手机</p>
+            <p style="position: relative;top: 40px;left: 40px;">校验码已发送到你的手机，15分钟内输入有效，请勿泄漏</p>
+            <p style="position: relative;left:300px;top:60px;font-size: 20px">手机号<span style="position: relative;left: 30px;">14324687</span></p>
+            <p style="position: relative;left:300px;top:80px;font-size: 20px">验证码:<button style="position:relative; left:140px;top: -4px;color: white;height: 36px;">免费获取验证码</button> </p>
+            <input type="text" style="position: absolute;left:412px;top: 200px;height: 30px;width: 100px">
+            <p style="position: relative;top: 70px;left: 420px;">校验码已发送至你的手机，请查收</p>
+            <button style="position: relative;top: 70px;left: 390px;width: 100px;height: 36px;background-color: red">确认</button>
+        </div>
+        <div class="userinfo" style="width: 1040px; height: 370px;position:relative;top: 80px;left: 200px; display: none;">
+            <p style="font-size: 20px;position: absolute;left: 300px;top: -50px;">登录名 <span style="position: relative;left: 20px;">13261068823 </span></p>
+            <p style="position: relative;top: 20px;left: 220px;">
+            <span style="font-size: 20px;">请设置登录密码 </span>
+                <span style="position:relative;left: 20px;">登录时验证，保护账号信息</span>
+            </p>
+            <p style="position:relative;left: 290px;top: 40px;">登录密码</p>
+            <input type="password" style="position: relative;left: 385px;top: -5px;height: 30px;width: 200px;" placeholder="设置你的登录密码">
+            <p style="position:relative;;left: 130px;top: 70px;">密码确认</p>
+            <input type="password" style="position:relative;left: 385px;top: 25px;height: 30px;width: 200px;" placeholder="请再次输入你的密码">
+            <p style="font-size: 20px;position:relative;top: 100px;left: 100px;">设置会员名</p>
+            <p style="position:relative;left: 310px;top: 110px;">登录名</p>
+            <input type="text" style="position:relative;left: 385px;top: 65px;height: 30px;width: 200px;" placeholder="会员名一旦设置成功，无法修改">
+            <button style="background-color: red;position: relative;left: 220px;top: 130px;height: 35px;width: 100px;color: white;">提交</button>
+        </div>
+        <div class="zhifutype" style="border: 2px solid #dedede;width: 1435px;height:600px;border-bottom-color:white;position: absolute;top: 120px;">
+            <p style="position: relative;left: 450px;top: 50px;">银行卡号</p>
+            <input type="text" style="position: relative;left: 540px;top:5px;height: 30px;width: 200px;">
+            <p style="position: relative;left: 230px;top: 70px;">持卡人姓名</p>
+            <input type="text" style="position: relative;left: 540px;top:25px;height: 30px;width: 200px;">
+            <p style="position: relative;left: 280px;top: 100px;">证件</p>
+            <select style="width: 100px;height: 26px;position: absolute;top:187px;left: 540px;">
+                <option value="身份证">身份证</option>
+            </select>
+            <input type="text"style="position: relative;left: 650px;top:55px;height: 30px;width: 200px;" >
+            <p style="position: relative;left: 245px;top: 120px;">手机号码</p>
+            <input type="text" placeholder="此卡在银行预留手机号码" style="position: relative;left: 540px;top:75px;height: 30px;width: 200px;">
+            <button style="position: relative;left: 560px;top: 75px;height: 35px">获取校验码</button>
+            <div style="position: relative;left: 470px;top: 100px;border: 1px solid;width: 400px;height: 100px;;display: none;">
+                <span>校验码已发送至手机 15234379641，请勿泄露 </span>
+                <p>校验码</p>
+                <input type="text" style="position: relative;left: 65px;top: -40px;height: 30px;">
+            </div>
+           <div style="position: relative;left: 190px;">
+               <button style=" color:white;position:relative;left: 185px;top: 130px;height: 35px;background-color: #00a3d2;width: 150px;">同意协议并确定</button>
+               <div style="position: relative;left: 340px;top: 140px;">
+                   <span >查看</span>
+                   <a id="xieyi" href="">《快捷支付服务相关协议》 </a>
+               </div>
+           </div>
+        </div>
+        <div class="isregist"style="width: 1040px; height: 370px;position:relative;top: 80px;left: 200px;border:2px solid #dedede;border-top: 2px solid red;display: none">
+            <div>
+                <img src="image/zhuce/1.png" height="131" width="134" style="position: relative;left: 290px;top:40px"/>
+                <span style="position:relative;left: 310px;top: -60px;">登录名：t******************9 </span>
+            </div>
+            <p style="position:relative;left: 250px;top: 40px;">手机号 <span style="color: red;">15234379641</span> 已被以上账户使用，请确认该账户是否为你本人所有</p>
+            <button style="color: white;font-size: 20px;height: 40px;background-color: red;position: relative;left: 390px;top: 50px;">该账户是我的，立即注册</button>
+            <p><a id="emailregist" href="#">不是我的，使用邮箱继续注册</a></p>
+        </div>
+    </div>
+</body>
+</html>
