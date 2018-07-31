@@ -47,4 +47,24 @@ $(function () {
     }).mouseout(function () {
         $(".bao-cat").hide();
     });
+    $(".input input").focus(function () {
+        $(".input b").hide();
+    }).focusout(function(){
+       $(".input b").show();
+    });
+    $(".input ipnut").click(function () {
+       $(this).css("border-color:none");
+    });
+    $(".shop-color").mouseover(function () {
+       $(this).css("border","1px dashed rgb(255,102,0)");
+       $(".shop-color-update").show();
+    }).mouseout(function () {
+        $(this).css("border"," none");
+        $(".shop-color-update").hide();
+    });
+    $(".shop-info-bottom").mouseover(function () {
+       $(".other-bao a").show();
+    }).mouseout(function () {
+        $(".other-bao a").hide();
+    });
 });

@@ -349,7 +349,7 @@
     height: 110px;
     padding-top: 10px;
     position: absolute;
-    left: 250px;
+    left: 160px;
     z-index: -1;
 }
 .input{
@@ -381,6 +381,7 @@
 }
 .bao ul li a{
     text-decoration: none;
+    color: rgb(104,104,104);
 }
 .bao .bao-cat{
     display: none;
@@ -403,4 +404,120 @@
     position: absolute;
     right: -90px;
     top: 0px;
+}
+.bao~span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url("../image/icon.png") no-repeat -96px -77px;
+    position: absolute;
+    top: 22px;
+    left: 70px;
+}
+.fa-search{
+    position: absolute;
+    left: 110px;
+    top: 18px;
+    color: rgb(104,104,104);
+}
+.fixed{
+    width: 1300px;
+    height: 60px;
+    background-color: rgb(229,229,229);
+    position: fixed;
+    left: 180px;
+    bottom: 0px;
+}
+.fixed a{
+    text-decoration: none;
+    color: rgb(60,60,60);
+}
+.fixed .fixed-info a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.shop-jieshao a{
+    text-decoration: none;
+    color: black;
+}
+.shop-info .shop-info-top input+span{
+    background: url("../image/icon.png") no-repeat -17px -105px;
+}
+.shop-ka{
+    position: absolute;
+    top: 110px;
+    left: 170px;
+}
+.shop-info-msg a{
+    text-decoration: none;
+    color: rgb(60,60,60);
+}
+.shop-info-msg a:hover{
+    color: rgb(255,102,0);
+    text-decoration: underline;
+}
+.shop-color p{
+    color: rgb(156,156,156);
+}
+.shop-color{
+    position: absolute;
+    left: 450px;
+    top:0px;
+}
+.shop-color-update{
+    display: none;
+    position: absolute;
+    top: -1px;
+    right: 0px;
+    width: 45px;
+    height: 25px;
+    background-color: rgb(255,102,0);
+}
+.shop-color-update a{
+    margin-left: 7px;
+    color: white;
+}
+.shop-money{
+    position: absolute;
+    right: 500px;
+    top: 30px;
+}
+.shop-yuan{
+    position: absolute;
+    right: 220px;
+    top: 30px;
+}
+.shop-other{
+    position: absolute;
+    right: 70px;
+    top: 30px;
+}
+.shop-other a{
+    text-decoration: none;
+    color: rgb(60,60,60);
+    line-height: 30px;
+}
+.shop-other a:hover{
+    color: rgb(255,102,0);
+    text-decoration: underline;
+}
+.other-bao a{
+    display: none;
+}
+.ali-info-top{
+    position: relative;
+    top: 600px;
+    text-align: center;
+}
+.ali-info-top a{
+    line-height: 40px;
+    text-decoration: none;
+}
+.ali-info a{
+    text-decoration: none;
+    color: rgb(108,108,108);
+}
+.ali-info a:hover{
+    color: rgb(255,102,0);
+    text-decoration: underline;
 }
